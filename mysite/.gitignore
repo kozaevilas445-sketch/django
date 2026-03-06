@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+.Python
+env/
+venv/
+venv.bak/
+.venv/
+# for mac, linux env can be ignored as above, for windows you should add the name of the env folder created by the command (e.g. env)
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+/media/
+
+# Static files (optional, if you compile them locally but deploy a separate build)
+# /static/ 
+
+# IDE-specific files
+.idea/  # For PyCharm/IntelliJ
+.vscode/ # For VS Code
